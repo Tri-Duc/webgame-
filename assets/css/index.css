@@ -25,7 +25,7 @@ img {
   height: auto;
 }
 .header .header_img {
-  height: 10vh;
+  height: 8vh;
   border-bottom: 1px solid #63432f;
 }
 .table__name .bt .nav-link.active {
@@ -49,6 +49,8 @@ img {
 .game ul.nav#myTab {
   border: none;
   justify-content: center;
+  margin-top: 34px;
+  position: relative;
 }
 .game .tab-content .tab-pane .bt {
   background-image: url(../bg/bg-aside.png);
@@ -99,11 +101,11 @@ img {
 }
 
 .input-fix {
-  padding: 20px;
+  padding: 23px;
   background-image: url(../bg/input1.png);
   background-repeat: no-repeat;
-  background-size: 400px 70px;
-  width: 500px;
+  background-size: 558px 70px;
+  width: 561px;
 }
 
 ::placeholder {
@@ -116,10 +118,12 @@ img {
   color: #6e4437;
   padding-left: 20px;
   background: unset;
+  width:  93%;
 }
 .input-fix i {
   color: #e8ad52;
-  font-size: 33px;
+  font-size: 30px;
+  padding: 1px;
 }
 .input-fix input:focus {
   outline: none;
@@ -130,4 +134,104 @@ img {
     /* position: fixed; */
     height: 92vh;
   }
+}
+.forminput{
+  margin-left: 22px;
+  margin-top: 97px;
+}
+.tab-content{
+  margin-top: -34px;
+}
+.fa-solid{
+  margin-top: -4px;
+}
+.input-fix1 {
+  padding: 23px;
+  background-image: url(../bg/input1.png);
+  background-repeat: no-repeat;
+  background-size: 375px 70px;
+  width: 561px;
+}
+.input-fix1 input {
+  color: #6e4437;
+  padding-left: 20px;
+  background: unset;
+  width: 65%;
+}
+.input-fix1 i {
+  color: #e8ad52;
+  font-size: 30px;
+  padding: 1px;
+}
+.buttondk{
+  text-align: center;
+}
+.button1 {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 22px;
+  color: #FFFFFF;
+  padding: 13px;
+  width: 140px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.button1:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.button2 {
+  margin-top: -19px;
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 19px;
+  color: #FFFFFF;
+  padding: 5px;
+  width: 142px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.button2:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button2:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
 }
