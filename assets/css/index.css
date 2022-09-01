@@ -11,8 +11,8 @@ li {
   list-style: none;
 }
 body {
-  background-image: url(../bg/87b50417-abf9-4242-8dfd-00cca055c420.354d0.png);
-  /* background-size: 100%; */
+  background-image: url(../bg/bg-main.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 h4 {
@@ -53,7 +53,7 @@ img {
   position: relative;
 }
 .game .tab-content .tab-pane .bt {
-  background-image: url(../bg/bg-aside.png);
+  /* background-image: url(../bg/bg-aside.png); */
   width: 27%;
   height: 78vh;
   background-size: cover;
@@ -105,7 +105,7 @@ img {
   background-image: url(../bg/input1.png);
   background-repeat: no-repeat;
   background-size: 558px 70px;
-  width: 561px;
+  width: 600px;
 }
 
 ::placeholder {
@@ -118,7 +118,7 @@ img {
   color: #6e4437;
   padding-left: 20px;
   background: unset;
-  width:  93%;
+  width: 90%;
 }
 .input-fix i {
   color: #e8ad52;
@@ -135,14 +135,14 @@ img {
     height: 92vh;
   }
 }
-.forminput{
-  margin-left: 22px;
+.forminput {
+  margin-left: 65px;
   margin-top: 97px;
 }
-.tab-content{
+.tab-content {
   margin-top: -34px;
 }
-.fa-solid{
+.fa-solid {
   margin-top: -4px;
 }
 .input-fix1 {
@@ -163,50 +163,33 @@ img {
   font-size: 30px;
   padding: 1px;
 }
-.buttondk{
-  text-align: center;
-}
-.button1 {
-  position: relative;
-  background-color: #4CAF50;
-  border: none;
-  font-size: 22px;
-  color: #FFFFFF;
-  padding: 13px;
-  width: 140px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-.button1:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
+.input-fix1 input:focus {
+  outline: none;
 }
 
-.button1:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
+.btn-register {
+  background-image: url(../bg/button_submit.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  padding: 10px;
 }
+
+.btn-otp {
+  background-image: url(../bg/button.png);
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 170px;
+  padding: 10px;
+}
+
 .button2 {
   margin-top: -19px;
   position: relative;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   font-size: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 5px;
   width: 142px;
   text-align: center;
@@ -214,7 +197,9 @@ img {
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .button2:after {
   content: "";
@@ -226,12 +211,20 @@ img {
   margin-left: -20px !important;
   margin-top: -120%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.8s;
 }
 
 .button2:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
+}
+
+.line {
+  border-top: 3px #e9cb7b solid;
+  width: 150px;
+}
+.tab-vertical {
+  text-align: center;
 }
